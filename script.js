@@ -123,7 +123,7 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    let userScore = `You scored ${score} out of ${questions.length}.`; // Assuming you have a variable named 'score' somewhere
+    let userScore = `You scored ${score} out of ${questions.length}.`;
     questionElement.innerHTML = userScore;
     questionElement.style.textAlign = "center"; // Align the text at the center
     nextButton.innerHTML = "Play Again?";
